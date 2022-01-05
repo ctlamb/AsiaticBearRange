@@ -511,7 +511,7 @@ count<-0
         
         range.lost[[count]] <- range
         
-        print(paste(bear[[b]], ", factor=",factor.x[i],"x", ", decline=",p.change.y[y],"%", sep=""))
+        #print(paste(bear[[b]], ", factor=",factor.x[i],"x", ", decline=",p.change.y[y],"%", sep=""))
       }
     }
     }
@@ -709,7 +709,7 @@ for(b in 1:2){
                                     lost.area=lost.area%>%as.numeric()%>%round(0),
                                     overlap.area.p=overlap.area.p%>%as.numeric()%>%round(0),
                                     extra.area.p=extra.area.p%>%as.numeric()%>%round(0)))
-    print(samp.dens[i])
+    #print(samp.dens[i])
   }
 }
 
